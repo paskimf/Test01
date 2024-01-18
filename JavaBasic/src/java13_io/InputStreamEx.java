@@ -67,7 +67,7 @@ public class InputStreamEx {
 				// -> 자원 해제 코드
 				if (is != null)
 					is.close();
-			} catch (IOException e) {
+			} catch (IOException e) { 
 				e.printStackTrace();
 			}
 		}

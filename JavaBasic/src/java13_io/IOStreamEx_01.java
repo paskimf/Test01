@@ -18,7 +18,7 @@ public class IOStreamEx_01 {
 
 		try {
 			// 입력 데이터가 EOF가 될때까지 반복적으로 입력한다
-			while ((len = is.read(buf)) != -1) {
+			while ((len = is.read(buf)) != -1) { 
 
 				// 입력 받는 데이터를 출력한다
 				os.write(buf, 0, len);
